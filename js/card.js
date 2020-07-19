@@ -7,7 +7,7 @@ $(document).ready( function(){
 			return false;
 		}
 		$.ajax ({
-			url: "/api/v1.0/cardInfo/card.php",
+			url: "../api/v1.0/cardInfo/card.php",
 			type: "POST",
 			cache: false,
 			data: {'NumberCard': NumberCard, 'Datacard': Datacard, 'CVC': CVC},

@@ -6,7 +6,7 @@ $(document).ready( function(){
 			return false;
 		}
 		$.ajax ({
-			url: "/api/v1.0/session/session.php",
+			url: "../api/v1.0/session/session.php",
 			type: "POST",
 			cache: false,
 			data: {'Sum': Sum, 'PurOfPay': PurOfPay},
